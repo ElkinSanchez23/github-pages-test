@@ -1,4 +1,4 @@
-import './globals.css'
+import "./globals.css";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 text-gray-800 p-6">
@@ -7,7 +7,8 @@ export default function Home() {
           ¡Hola desde GitHub Pages con Next.js!
         </h1>
         <p className="text-lg">
-          Tu despliegue está funcionando <span className="font-semibold text-green-600">perfectamente</span>.
+          Tu despliegue está funcionando{" "}
+          <span className="font-semibold text-green-600">perfectamente</span>.
         </p>
         <a
           href="https://github.com/ElkinSanchez23/github-pages-test"
@@ -18,6 +19,7 @@ export default function Home() {
           Ver código en GitHub
         </a>
         <h1>Segunda Prueba</h1>
+        <h1>Tercer Prueba</h1>
       </div>
     </main>
   );
