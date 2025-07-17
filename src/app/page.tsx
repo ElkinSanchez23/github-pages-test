@@ -17,6 +17,7 @@ export default function Home() {
         >
           Ver código en GitHub
         </a>
+        <h1>Segunda Prueba</h1>
       </div>
     </main>
   );
