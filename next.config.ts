@@ -1,9 +1,9 @@
 const isGithubPages = process.env.GITHUB_PAGES === 'true';
-const repo = 'github-pages-test'; 
+const repo = 'github-pages-test';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export', 
   basePath: isGithubPages ? `/${repo}` : '',
   assetPrefix: isGithubPages ? `/${repo}/` : '',
 };

@@ -1,3 +1,4 @@
+import './globals.css'
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 text-gray-800 p-6">
@@ -9,7 +10,7 @@ export default function Home() {
           Tu despliegue está funcionando <span className="font-semibold text-green-600">perfectamente</span>.
         </p>
         <a
-          href="https://github.com/elkin-sanchez/github-pages-test"
+          href="https://github.com/ElkinSanchez23/github-pages-test"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block mt-4 px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
