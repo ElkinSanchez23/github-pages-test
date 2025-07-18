@@ -20,7 +20,10 @@ export default function Home() {
           Ver código en GitHub
         </a>
         <h1 className="text-xl text-purple-700 font-medium">
-          ✅ Cuarta Prueba: ¡todo va bien!
+          ✅ Cuarta Prueba: ¡todo no tan va bien!
+        </h1>
+        <h1 className="text-xl text-purple-700 font-medium">
+          ✅ Quinta Prueba: ¡todo va bien!
         </h1>
       </div>
     </main>
