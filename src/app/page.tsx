@@ -1,4 +1,5 @@
 import "./globals.css";
+
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 text-gray-800 p-6">
@@ -18,8 +19,9 @@ export default function Home() {
         >
           Ver código en GitHub
         </a>
-        <h1>Segunda Prueba</h1>
-        <h1>Tercer Prueba</h1>
+        <h1 className="text-xl text-purple-700 font-medium">
+          ✅ Cuarta Prueba: ¡todo va bien!
+        </h1>
       </div>
     </main>
   );
